@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #141414;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+header {
+    height: 68px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(20,20,20);
+    padding-left: 4%;
+    padding-right: 4%;
+    position: sticky;
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 0;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+}
+
+.logo {
+    margin-right: 5px;
+}
+.mainNavigation {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    position: relative;
+    z-index: 2;
+    width:100%;
+    
+}
+.mainNavigation li {
+    color: #e5e5e5;
+    list-style-type: none;
+    padding-right: 16px;
+    line-height: 1.2;
+    align-content: center;
+    cursor: pointer;
+    margin-left: 18px;
+
+}
+.mainNavigation li:hover{
+    font-weight: 700;
+}
+
+
+.secondaryNavigation {
+    display: flex;
+    align-items: center;
+    color: #e5e5e5;
+    height: 68px;
+    right: 60px;
+    top: 0px;
+    cursor: pointer;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+.nav-element {
+    margin-right: 15px;
+}
+.secondaryNavigation .icon-search {
+    width: 25px;
+}
+.secondaryNavigation .icon-search img{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    padding: 1px 6px;
+    width: 35px;
+    align-content: center;
+    right: 10px;
+}
+.secondaryNavigation:hover{
+    font-weight: 700;
+}
+a { 
+    color: #e5e5e5;
+    text-decoration: none;
+}
+.notifications
+{
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+
+}
+.notifications img {
+    height: 30px;
+}
+
+.user_icon{
+height: 40px;
+}

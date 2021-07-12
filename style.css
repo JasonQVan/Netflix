@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 68px;
+    display: flex;
+    background-color: rgb(20,20,20);
+    padding-left: 52.359px;
+    padding-right: 52.359px;
+    position: fixed;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+.navigationMenu {
+    display: flex;
+}
+.navigationMenu img {
+    padding: auto;
+}
+
+.mainNavigation {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    position: relative;
+    z-index: 2;
+    
+}
+.mainNavigation ul {
+    display: flex;
+}
+.mainNavigation ul li {
+    display: flex;
+    color: #e5e5e5;
+    list-style-type: none;
+    padding-right: 16px;
+    line-height: 1.2;
+    align-content: center;
+    cursor: pointer;
+}
+
+.secondaryNavigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #e5e5e5;
+    position: absolute;
+    flex-grow: 1;
+    height: 68px;
+    right: 60px;
+    top: 0px;
+}
+.nav-element {
+    margin-right: 15px;
+}
+.secondaryNavigation .icon-search {
+    width: 25px;
+}
+.secondaryNavigation .icon-search img{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    padding: 1px 6px;
+    width: 35px;
+    align-content: center;
+}
+a { 
+    color: #e5e5e5;
+    text-decoration: none;
+}
